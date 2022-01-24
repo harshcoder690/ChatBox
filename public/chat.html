@@ -50,8 +50,11 @@
     </script>
 
     <script id="sidebar-template" type="text/html">
-        <h1>ChatBox</h1>
-        <h2 class="room-title">{{room}}</h2>
+        <h1 class="room-title"> ChatBox
+            <p class="room">
+                << {{room}}>></p>
+        </h1>
+        <!-- <h2 class="room">{{room}}</h2> -->
         <h3 class="list-title">Users</h3>
         <ul class="users">
             {{#users}}
@@ -59,7 +62,6 @@
             {{/users}}
         </ul>
     </script>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.6.0/qs.min.js"></script>

@@ -63,7 +63,7 @@ socket.on('locationMessage', (location) => {
 })
 socket.on('roomData', ({ room, users }) => {
     const html1 = Mustache.render(sidebarTemplate, {
-        room,
+        room: room.toUpperCase(),
         users
     })
     document.querySelector('#sidebar').innerHTML = html1
