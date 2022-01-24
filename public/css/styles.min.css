@@ -38,7 +38,7 @@ input {
 button {
     cursor: pointer;
     padding: 12px;
-    background: #7C5CBF;
+    background: #2c2f3a;
     border: none;
     color: #fff;
     font-size: 16px;
@@ -46,7 +46,7 @@ button {
 }
 
 button:hover {
-    background: #6b47b8
+    background: #2c2f3a
 }
 
 button:disabled {
@@ -175,4 +175,9 @@ button:disabled {
     list-style-type: none;
     font-weight: 300;
     padding: 12px 24px 0
+}
+
+.head {
+    text-align: center;
+    font-family: cursive;
 }
